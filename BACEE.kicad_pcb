@@ -294,7 +294,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5EC1AECA)
-    (at 117.466 119.253 180)
+    (at 116.958 119.253 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5EC10D42)
@@ -330,7 +330,7 @@
   )
 
   (module LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B4B45C9) (tstamp 5EC19B74)
-    (at 121.657 123.698)
+    (at 121.149 123.698)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /5EC11BF2)
@@ -560,7 +560,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5EC19BEE)
-    (at 117.466 123.698 180)
+    (at 116.958 123.698 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5EC1258B)
@@ -740,7 +740,7 @@
   )
 
   (module Package_SO:SO-8_5.3x6.2mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5EC1A9D1)
-    (at 119.634 112.776)
+    (at 119.126 112.776)
     (descr "8-Lead Plastic Small Outline, 5.3x6.2mm Body (http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf)")
     (tags "SOIC 1.27")
     (path /5EC29420)
@@ -893,7 +893,7 @@
   )
 
   (module Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm (layer F.Cu) (tedit 5D24C08C) (tstamp 5EC1AEFC)
-    (at 121.646 119.253)
+    (at 121.138 119.253)
     (descr "SMD Crystal MicroCrystal CC7V-T1A/CM7V-T1A series https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC7V-T1A.pdf, 3.2x1.5mm^2 package")
     (tags "SMD SMT crystal")
     (path /5EC1F9D8)
