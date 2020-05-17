@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 12)
     (tracks 0)
     (zones 0)
     (modules 17)
@@ -181,8 +181,8 @@
     (add_net GNDPWR)
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5EC1B285)
-    (at 85.598 109.601)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5EC1B5DC)
+    (at 85.852 110.998)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /5EC0DCA7)
@@ -368,7 +368,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 5EC19B8C)
-    (at 99.822 105.791 90)
+    (at 97.79 105.664 90)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
     (path /5EC178C4/5EC1A01F)
@@ -466,7 +466,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A425) (tstamp 5EC19BC5)
-    (at 88.138 118.364)
+    (at 88.392 117.348)
     (descr "Through hole straight socket strip, 2x03, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 2x03 2.54mm double row")
     (path /5EC178C4/5EC194FF)
@@ -516,7 +516,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 5EC19BDD)
-    (at 113.919 105.664 90)
+    (at 110.744 105.664 90)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
     (path /5EC178C4/5EC18C97)
@@ -975,5 +975,18 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_circle (center 122.428 105.918) (end 121.158 105.918) (layer Edge.Cuts) (width 0.05) (tstamp 5EC1B664))
+  (gr_circle (center 122.428 128.524) (end 121.158 128.524) (layer Edge.Cuts) (width 0.05) (tstamp 5EC1B62E))
+  (gr_circle (center 85.852 128.524) (end 84.582 128.524) (layer Edge.Cuts) (width 0.05) (tstamp 5EC1B626))
+  (gr_circle (center 85.852 105.918) (end 84.582 105.918) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 83.82 130.302) (end 83.82 104.14) (layer Edge.Cuts) (width 0.05) (tstamp 5EC1B527))
+  (gr_line (start 124.206 130.556) (end 84.074 130.556) (layer Edge.Cuts) (width 0.05) (tstamp 5EC1B524))
+  (gr_line (start 124.46 104.14) (end 124.46 130.302) (layer Edge.Cuts) (width 0.05) (tstamp 5EC1B522))
+  (gr_line (start 84.074 103.886) (end 124.206 103.886) (layer Edge.Cuts) (width 0.05) (tstamp 5EC1B520))
+  (gr_arc (start 124.206 104.14) (end 124.46 104.14) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 124.206 130.302) (end 124.206 130.556) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 84.074 130.302) (end 83.82 130.302) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 84.074 104.14) (end 84.074 103.886) (angle -90) (layer Edge.Cuts) (width 0.05))
 
 )
