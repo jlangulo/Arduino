@@ -138,4 +138,26 @@ F 3 "https://4donline.ihs.com/images/VipMasterIC/IC/MAXM/MAXM-S-A0000633411/MAXM
 	1    5500 5300
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5EC1F9D8
+P 2600 3050
+F 0 "Y?" H 2600 3318 50  0000 C CNN
+F 1 "Crystal" H 2600 3227 50  0000 C CNN
+F 2 "" H 2600 3050 50  0001 C CNN
+F 3 "~" H 2600 3050 50  0001 C CNN
+	1    2600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5EC2101F
+P 2600 3550
+F 0 "Y?" H 2600 3818 50  0000 C CNN
+F 1 "Crystal" H 2600 3727 50  0000 C CNN
+F 2 "" H 2600 3550 50  0001 C CNN
+F 3 "~" H 2600 3550 50  0001 C CNN
+	1    2600 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
